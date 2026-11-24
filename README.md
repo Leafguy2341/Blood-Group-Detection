@@ -14,7 +14,7 @@ Mục tiêu của repo là:
 
 ## 1. Cách dự án hoạt động
 
-1. Dataset gốc được giữ theo cấu trúc COCO trong `train/`, `valid/`, `test/`.
+1. Dataset gốc được giữ theo cấu trúc COCO trong `train/`, `valid/`, `test/`. link google drive: https://drive.google.com/drive/u/0/folders/115DliplcShD-Xak6f2CQeIKK1eyka4zy.
 2. Các notebook EDA và feature extraction tạo ra CSV feature trong `processed/`.
 3. Notebook classification train nhiều model và lưu vào `models/`.
 4. `app.py` đọc các model đã lưu, cho user upload ảnh, trích feature cùng logic với notebook, rồi dự đoán nhóm máu.
